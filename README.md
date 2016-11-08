@@ -18,11 +18,15 @@ npm run build
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
+本demo基于他人demo改进页面效果，添加部分效果（初学，代码比较丑，大神勿喷）
+原文地址 https://segmentfault.com/a/1190000005863691
+本demo代码已经使用vue.js 2.0，方便学习2.0的童鞋
+
 目录结构
 
     components/ 文件夹用来存放我们的 Vue 组件
 
-    vuex/ 文件夹存放的是和 Vuex store 相关的东西（state object，actions，mutators)
+    vuex/ 文件夹存放的是和 Vuex store 相关的东西（state,getters，actions，mutations)
 
     build/ 文件是 webpack 的打包编译配置文件
 
@@ -72,4 +76,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
     
 根组件
     根组件(App.vue)中引用了三个子组件：Toolbar.vue, NotesList.vue, Editor.vue。 
+    
+    
     
